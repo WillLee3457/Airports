@@ -1,0 +1,548 @@
+##this airport is made by Will_Lee alone,no commercial use
+##data come from AIARC2208,which is open publiced by CAAC,do not use them at any illgal area!!!
+##because different reference frame between FAA and CAAC,some cordinates of VOR/DME may not as precise as they truly are,some even have about 0.1degree difference
+##this airport is still WIP,SID and STAR are ready for playing but all restricted area has not been added,waiting for further update,thx and enjoy!
+
+[airspace]
+radius=80
+elevation = 6388
+metric = true
+floor=9500
+automatic=true
+descentaltitude=21000
+celling=22100
+localizerspeed=10,180
+transitionaltitude = 15700
+above=25700
+separation = 5
+usa = false
+speedrestriction = 80, 250,15700,250
+center = N36.5152015686, E103.620002747
+magneticvar = -2.122
+beacons =
+	DNC, N36.53472, E103.61694, 0, Lanzhou
+	DZH, N36.23361, E103.78583, -262, Zhonghe
+	DJC, N36.76722, E103.43472, 270, Wangjiachuan
+	JTA, N37.19500, E104.08000, 0, Jingtai
+          AKMAT,N37.60027,E103.835,,AKMAT
+          ANDIM,N37.35138,E102.43444,0,ANDIM
+          AVBUD,N37.1025,E102.3025,0,AVBUD
+          MUDAP,N36.85,E104.08555,0,MUDAP
+          BESMI,N35.76833,E104.15027,0,BESMI
+          BUKPU,N36.93388,E103.28333,0,BUKPU
+          PANRA,N36.81666,E102.90194,0,PANRA
+          SUNUV,N36.51888,E104.10222,0,SUNUV
+          XIXAN,N36.26888,E104.11805,0,XIXAN
+          IRSUM,N36.01833,E104.6525,0,IRSUM
+          OVTIB,N36.4,E104.73388,0,OVTIB
+          LEVGI,N37.2025,E104.60194,0,LEVGI
+          
+
+line1 =
+	N35.84453, E102.18460
+	N35.87337, E102.35585
+	N35.86040, E102.61031
+	N35.80557, E102.94775
+	N35.81156, E103.17720
+	N35.87833, E103.29864
+	N35.93122, E103.31677
+	N35.97026, E103.23171
+	N36.03956, E103.25559
+	N36.13911, E103.38840
+	N36.15784, E103.56022
+	N36.09568, E103.77106
+	N36.06808, E103.91596
+	N36.07506, E103.99508
+	N36.10446, E104.03063
+	N36.15629, E104.02267
+	N36.22877, E104.07223
+	N36.32184, E104.17920
+	N36.42780, E104.35211
+	N36.54661, E104.59096
+	N36.62758, E104.71348
+	N36.67073, E104.71979
+	N36.72750, E104.69039
+	N36.79794, E104.62517
+	N36.85008, E104.52843
+	N36.88390, E104.40007
+	N36.94552, E104.32658
+	N37.03492, E104.30788
+	N37.09345, E104.31387
+	N37.17388, E104.35273
+	N37.19698, E104.44606
+	N37.24132, E104.52027
+	N37.30690, E104.57556
+	N37.35860, E104.69163
+	N37.41539, E104.95693
+	N37.46149, E104.99786
+
+[airport1]
+name = Lanzhou Zhongchuan Airport
+code = ZLLL
+runways =
+	rwy1,36, N36.5025, E103.6172, 359.6, 11811, 0, 0, 6388
+climbaltitude=15600
+sids=
+          AKMAT,N37.60027,E103.835
+          BESMI,N35.76833,E104.15027
+          LEVGI,N37.2025,E104.60194
+          ANDIM,N37.35138,E102.43444
+          IRSUM,N36.01833,E104.6525
+entrypoints=
+          338,AKMAT,21700
+          300,AVBUD,21700
+          150,BESMI,21700
+          110,OVTIB,11800
+
+airlines=
+          CSS, 1, B752, shun feng
+	CYZ, 1, B752, china post
+	HBH, 1, B738, he bei air
+	CSH, 1, B738, shang hai air
+	CSN, 1, A21N, china southern
+	DKH, 1, A320, air juneyao
+	CSN, 1, A321, china southern
+	CBJ, 1, A319, capital jet
+	CSN, 1, A321, china southern
+	CES, 1, B737, china eastern
+	EPA, 1, B738, dong hai air
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CBJ, 1, A320, capital jet
+	CXA, 1, B738, xia men air
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	HXA, 1, CRJ9, china express
+	CXA, 1, B738, xia men air
+	CSN, 1, B738, china southern
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CES, 1, A333, china eastern
+	CES, 1, A321, china eastern
+	HBH, 1, B738, he bei air
+	CES, 1, A321, china eastern
+	CSN, 1, A321, china southern
+	CSC, 1, A321, si chuan
+	CSC, 1, A321, si chuan
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	CSN, 1, A320, china southern
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CES, 1, A321, china eastern
+	HXA, 1, CRJ9, china express
+	CSN, 1, A320, china southern
+            CSS, 1, B752, shun feng
+	CYZ, 1, B752, china post
+	HBH, 1, B738, he bei air
+	CSH, 1, B738, shang hai air
+	CSN, 1, A21N, china southern
+	DKH, 1, A320, air juneyao
+	CSN, 1, A321, china southern
+	CBJ, 1, A319, capital jet
+	CSN, 1, A321, china southern
+	CES, 1, B737, china eastern
+	EPA, 1, B738, dong hai air
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CBJ, 1, A320, capital jet
+	CXA, 1, B738, xia men air
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	HXA, 1, CRJ9, china express
+	CXA, 1, B738, xia men air
+	CSN, 1, B738, china southern
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CES, 1, A333, china eastern
+	CES, 1, A321, china eastern
+	HBH, 1, B738, he bei air
+	CES, 1, A321, china eastern
+	CSN, 1, A321, china southern
+	CSC, 1, A321, si chuan
+	CSC, 1, A321, si chuan
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	CSN, 1, A320, china southern
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CES, 1, A321, china eastern
+	HXA, 1, CRJ9, china express
+	CSN, 1, A320, china southern
+            CSS, 1, B752, shun feng
+	CYZ, 1, B752, china post
+	HBH, 1, B738, he bei air
+	CSH, 1, B738, shang hai air
+	CSN, 1, A21N, china southern
+	DKH, 1, A320, air juneyao
+	CSN, 1, A321, china southern
+	CBJ, 1, A319, capital jet
+	CSN, 1, A321, china southern
+	CES, 1, B737, china eastern
+	EPA, 1, B738, dong hai air
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CBJ, 1, A320, capital jet
+	CXA, 1, B738, xia men air
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	HXA, 1, CRJ9, china express
+	CXA, 1, B738, xia men air
+	CSN, 1, B738, china southern
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CES, 1, A333, china eastern
+	CES, 1, A321, china eastern
+	HBH, 1, B738, he bei air
+	CES, 1, A321, china eastern
+	CSN, 1, A321, china southern
+	CSC, 1, A321, si chuan
+	CSC, 1, A321, si chuan
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	CSN, 1, A320, china southern
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CES, 1, A321, china eastern
+	HXA, 1, CRJ9, china express
+	CSN, 1, A320, china southern
+	HXA, 1, CRJ9, china express
+	HBH, 1, B738, he bei air
+	CCA, 1, B738, air china
+	CSN, 1, A320, china southern
+	CSN, 1, A321, china southern
+	CES, 1, A321, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A21N, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	CCA, 1, B738, air china
+	CSN, 1, A320, china southern
+	CES, 1, A320, china eastern
+	CES, 1, A321, china eastern
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	HBH, 1, B738, he bei air
+	CSN, 1, A321, china southern
+	CSN, 1, A320, china southern
+	CES, 1, A321, china eastern
+	CES, 1, B738, china eastern
+	CES, 1, A332, china eastern
+	CCA, 1, B738, air china
+	CES, 1, B738, china eastern
+	CES, 1, B737, china eastern
+	HBH, 1, B738, he bei air
+	CCA, 1, B738, air china
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	CQH,10,A320, chun qiu
+            CSC,15,A320, si chuan
+            CUH,15,B738, lou lan
+            TBA,10,A319, tibet air
+            TBA,1,A332, tibet air
+          
+[approach1]
+runway=rwy1,rev
+beacon=AKMAT
+route1=
+             AKM09A,AKMAT zero niner alpha
+             N37.60027,E103.835,21000
+             N37.19500, E104.08000,11800
+             N36.78611,E103.91222,10800,205
+             N36.7851,E103.67166,9500
+             15,8860,205
+             
+[approach2]
+runway=rwy1,rev
+beacon=LL905,N36.78611,E103.91222,10800,205
+
+[approach3]
+runway=rwy1,rev
+beacon=LL901,N36.5025,E103.98944
+
+[approach4]
+runway=rwy1,rev
+beacon=LL908,N36.76722,E103.28222
+
+[approach5]
+runway=rwy1,rev
+beacon=LL910,N36.7851,E103.6148
+
+[approach6]
+runway=rwy1,rev
+beacon=LL920,N36.03333,E104.15027
+
+[approach7]
+runway=rwy1,rev
+beacon=LL923,N36.2852,E103.43472
+
+[approach8]
+runway=rwy1,rev
+beacon=LL927,N36.54888,E103.43472
+
+[approach9]
+runway=rwy1,rev
+beacon=LL928,N36.54888,E103.23333
+
+[approach10]
+runway=rwy1,rev
+beacon=LL930,N36.2852,E103.6172
+
+[approach11]
+runway=rwy1,rev
+beacon=LL940,N36.54583,E103.90805
+
+[approach12]
+runway=rwy1,rev
+beacon=LL941,N36.15000,E103.9999
+
+[approach13]
+runway=rwy1
+beacon=LL905,N36.78611,E103.91222,10800,205
+
+[approach14]
+runway=rwy1
+beacon=LL901,N36.5025,E103.98944
+
+[approach15]
+runway=rwy1
+beacon=LL908,N36.76722,E103.28222
+
+[approach16]
+runway=rwy1
+beacon=LL910,N36.7851,E103.6148
+
+[approach17]
+runway=rwy1
+beacon=LL920,N36.03333,E104.15027
+
+[approach18]
+runway=rwy1
+beacon=LL923,N36.2852,E103.43472
+
+[approach19]
+runway=rwy1
+beacon=LL927,N36.54888,E103.43472
+
+[approach20]
+runway=rwy1
+beacon=LL928,N36.54888,E103.23333
+
+[approach21]
+runway=rwy1
+beacon=LL930,N36.2852,E103.6172
+
+[approach22]
+runway=rwy1
+beacon=LL940,N36.54583,E103.90805
+
+[approach23]
+runway=rwy1
+beacon=LL941,N36.15000,E103.9999
+
+[approach24]
+runway=rwy1
+beacon=AKMAT
+route1=
+             AKMAT19A,AKMAT one niner alpha
+             N37.60027,E103.835,21000
+             N37.19500, E104.08000,11800
+             N36.54583,E103.90805
+             N36.23361, E103.78583
+             N36.2852,E103.6172
+             13,8860,205
+
+[approach25]
+runway=rwy1
+beacon=DJC
+route1=
+             AKM17A,AKMAT one seven alpha
+             N37.60027,E103.835,21000
+             N37.19500, E104.08000,11800
+             N36.76722, E103.43472
+             N36.2852,E103.43472
+             N36.2852,E103.6172
+             13,8860,205
+
+[approach26]
+runway=rwy1,rev
+beacon=AVBUD
+route1=
+             AVB09A,AVBUD zero niner alpha
+             N37.1025,E102.3025,21000
+             N36.81666,E102.90194,16700
+             N36.76722,E103.28222,12800
+             N36.76722, E103.43472,10830
+             N36.7851,E103.6148,9500
+             15,8860,205
+
+[approach27]
+runway=rwy1
+beacon=AVBUD
+route1=
+              AVB19A,AVBUD one niner alpha
+              N37.1025,E102.3025,21000
+              N36.81666,E102.90194,16700
+              N36.54888,E103.23333
+              N36.2852,E103.43472,9850
+              N36.2852,E103.6172,8860
+              13,8860,205
+
+[approach28]
+runway=rwy1,rev
+beacon=BESMI
+route1=
+              BES08A,BESMI zero eight alpha
+              N35.76833,E104.15027,21700
+              N36.23361, E103.78583,10900
+              N36.2852,E103.43472
+              N36.76722, E103.43472,10830
+              N36.7851,103.6148,9850
+              15,8860,205
+
+[approach29]
+runway=rwy1,rev
+beacon=LL920
+route1=
+               BES09A,BESMI zero niner alpha
+               N35.76833,E104.15027,21700
+               N36.03333,E104.15027,21700
+               N36.26888,E104.11805,17700
+               N36.51888,E104.10222,11700
+               N36.78611,E103.91222,10830,205
+               N36.7851,E103.6148,9850
+               15,8860,205
+
+[approach30]
+runway=rwy1
+beacon=BESMI
+route1=
+               BES17A,BESMI one seven alpha
+               N35.76833,E104.15027,21700
+               N36.50,E103.999,11820
+               N36.23361, E103.78583,9850
+               N36.2852,E103.6172
+               13,8860,205
+
+[approach31]
+runway=rwy1
+beacon=BESMI
+route1=
+               BES19A,BESMI one niner alpha
+               N35.76833,E104.15027,21700
+               N36.03333,E104.15027,21700
+               N36.26888,E104.11805,17700,255
+               N36.51888,E104.10222,11700
+               N36.54583,E103.90805
+               N36.23361, E103.78583,10900
+               N36.2852,E103.6172,8860,205
+               13,8860,205
+
+[approach32]
+runway=rwy1,rev
+beacon=OVTIB
+route1=
+               OVT09A,OVTIB zero niner alpha
+               N36.4,E104.73388,15700
+               N36.51888,E104.10222,11700
+               N36.78611,E103.91222,10830,205
+               N36.7851,E103.6148,8860
+               15,8860,205
+
+[approach33]
+runway=rwy1
+beacon=OVTIB
+route1=
+               OVT19A,OVTIB one niner alpha
+               N36.4,E104.73388,15700
+               N36.51888,E104.10222,11700
+               N36.54583,E103.90805
+               N36.23361, E103.78583,9850,205
+               N36.2852,E103.6172
+               13,8860,205
+
+[departure1]
+runway=rwy1,rev
+route1=
+          AKM09D
+          N36.62805,E103.98944,10900,230
+          N36.85,E104.08555,13780
+          N37.19500, E104.08000,14700
+          N37.60027,E103.835,15600
+route2=
+          AND09D
+          N36.54888,E103.43472,10900,230
+          N36.76722, E103.43472
+          N36.93388,E103.28333
+          N37.35138,E102.43444,21700
+route3=
+          BES09D
+          N36.23361, E103.78583,10900,230
+          N36.26888,E104.11805
+          N36.03333,E104.15027,21700
+          N35.76833,E104.15027
+route4=
+          BES08D
+          N36.23361, E103.78583,10900,230
+          N36.03333,E104.15027,21700
+          N35.76833,E104.15027
+
+[departure2]
+runway=rwy1
+route1=
+          AND19D
+          N36.76722, E103.43472,11700,230
+          N36.93388,E103.28333,13780
+          N37.35138,E102.43444,21700
+route2=
+          AKM19D
+          N36.78611,E103.91222,11700,230
+          N36.85,E104.08555,14770
+          N37.19500, E104.08000
+          N37.60027,E103.835
+route3=
+          BES19D
+          N36.5025,E103.98944,10900,230
+          N36.26888,E104.11805,16700
+          N36.03333,E104.15027
+          N35.76833,E104.15027
+route4=
+          LEV19D
+          N36.78611,E103.91222,11700,230
+          N36.85,E104.08555
+          N37.2025,E104.60194
+
+[departure3]
+runway=rwy1,rev
+route1=
+          IRS08D
+          N36.23361, E103.78583,10900,230
+          N36.01833,E104.6525
+route2=
+          IRS09D    
+          N36.23361, E103.78583,10900,230
+          N36.26888,E104.11805,16700
+          N36.01833,E104.6525
+
+[departure4]
+runway=rwy1
+route1=
+           IRS19D
+           N36.5025,E103.98944,16700,230
+           N36.26888,E104.11805     
+           N36.01833,E104.6525
